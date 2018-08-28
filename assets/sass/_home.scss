@@ -1,0 +1,23 @@
+.home{
+    .links{
+        background: rgba(0,0,0, .7);
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        //max-width: 100%;
+
+        .categories{
+
+            .group-links{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+
+                .links{
+                }
+            }
+        }
+    }
+
+    .trending{
+
+    }
+}
