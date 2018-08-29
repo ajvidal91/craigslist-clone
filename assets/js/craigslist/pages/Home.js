@@ -12,6 +12,12 @@ export default class Header extends Component {
     console.log('swag')
   }
 
+  loopTags = () => {
+      let testTags = ["a","b","c","d","e","f","g"]
+      return testTags.map((item) => <div key={item} className={"tag"}>Apple Macbook</div>)
+
+  }
+
   render () {
     return (
         <div className={"home"}>
@@ -61,9 +67,4 @@ export default class Header extends Component {
       })
   }
 
-  loopTags = () => {
-      let testTags = ["a","b","c","d","e","f","g"]
-      return testTags.map((item) => <div key={item} className={"tag"}>Apple Macbook</div>)
-
-  }
 }
