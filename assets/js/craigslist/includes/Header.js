@@ -12,7 +12,9 @@ export default class Header extends Component {
     console.log('swag')
   }
   render () {
-    return (<header>
+    return (
+<div className={"container"}>
+    <header>
         <div className={"left-menu"}>
             <div className={"logo"}>Craigslist</div>
             <div className={"city"}>Boston
@@ -27,6 +29,7 @@ export default class Header extends Component {
             </div>
             <div className={"post-btn"}>post to classified</div>
         </div>
-    </header>)
+    </header>
+</div>)
   }
 }
