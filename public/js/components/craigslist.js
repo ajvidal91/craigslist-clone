@@ -518,13 +518,13 @@ var Listings = function (_Component) {
 
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
-                { className: "listings" },
+                { className: "listings-page" },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'div',
                     { className: "container" },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'section',
-                        { className: "filter" },
+                        { id: "filter" },
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             'div',
                             { className: "form-group make" },
@@ -605,7 +605,7 @@ var Listings = function (_Component) {
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'section',
-                        { className: "list-view" },
+                        { id: "list-view" },
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             'section',
                             { className: "change-view" },

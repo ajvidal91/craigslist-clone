@@ -13,9 +13,9 @@ export default class Listings extends Component {
   render () {
       const {match, location, history} = this.props
     return (
-        <div className={"listings"}>
+        <div className={"listings-page"}>
             <div className={"container"}>
-                <section className={"filter"}>
+                <section id={"filter"}>
                     <div className={"form-group make"}>
                         <label>Price</label>
                         <select name='min-price' className={'min-price'}>
@@ -42,7 +42,7 @@ export default class Listings extends Component {
                         <div className={"reset-btn"}>Reset</div>
                     </div>
                 </section>
-                <section className={"list-view"}>
+                <section id={"list-view"}>
                     <section className={"change-view"}>
                         <div className={"form-group view-dropdown"}>
                             <select name='select-view' className={'select-view'}>

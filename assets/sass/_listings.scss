@@ -1,0 +1,31 @@
+.listings-page{
+    background: white;
+
+    #filter{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        .form-group{
+            display: flex;
+            flex-direction: column;
+            label{
+                font-weight: 500;
+                margin-bottom: .8rem;
+            }
+            select{
+                background: white;
+                border-radius: 5px;
+                border: 2px solid #adbed2;
+                padding: 10px;
+                margin-right: 20px;
+                color: #1b1b1b;
+                min-width: 100px;
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    #list-view{
+
+    }
+}
